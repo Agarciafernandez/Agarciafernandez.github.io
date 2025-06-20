@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Ángel F. García-Fernández"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Madrid"
-  employer         : "Universidad Politécnica de MAdrid"
+  bio              : "Associate Professor"
+  location         : "Madrid, Spain"
+  employer         : "Universidad Politécnica de Madrid"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : # "none@example.org" 
 
   # Academic websites
   academia         : # URL
