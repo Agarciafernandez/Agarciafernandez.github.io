@@ -30,7 +30,7 @@ I have worked in many different applications including:
 - Gaussian process inference (molecular property prediction, classification).
 - Perception for advanced driver assistance systems.
 - Health (fMRI and EEG signal processing).
-- Battey state-of-charge estimation.
+- Battery state-of-charge estimation.
 
 
 Awards
