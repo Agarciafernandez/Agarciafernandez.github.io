@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Ángel's homepage"
+title                    : # "Ángel's homepage"
 title_separator          : "-"
 name                     : &name "Agarciafernandez.github.io"
 description              : &description "personal description"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Ángel F. García-Fernández"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor"
+  bio              : "Associate Professor \Universidad Politécnica de Madrid"
   location         : "Madrid, Spain"
   employer         : "Universidad Politécnica de Madrid"
   uri              : # URL
