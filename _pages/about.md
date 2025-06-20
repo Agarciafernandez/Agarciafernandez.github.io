@@ -19,11 +19,11 @@ These are some of my main research contributions.
 Generalised optimal sub-pattern assignment (GOSPA) metric
 ---------------
 
-The GOSPA metric proposed in [1](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets. The metric is used for evaluation of multi-target filters and it penalises localisation errors for properly detected targets, and the number of missed and false targets.
+The GOSPA metric proposed in [[1]](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets. The metric is used for evaluation of multi-target filters and it penalises localisation errors for properly detected targets, and the number of missed and false targets.
 
-The trajectory GOSPA (T-GOSPA) metric proposed in [2](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms. It penalises localisation errors for properly detected targets, the number of missed and false targets, and includes a track switching cost.
+The trajectory GOSPA (T-GOSPA) metric proposed in [[2]](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms. It penalises localisation errors for properly detected targets, the number of missed and false targets, and includes a track switching cost.
 
-The GOSPA metric has also been extended to graphs to measure the distance between graphs [3](https://ieeexplore.ieee.org/abstract/document/10644126). In this case, it penalises localisation errors for properly detected nodes, the number of missed and false nodes, and Edge mismatch errors.
+The GOSPA metric has also been extended to graphs to measure the distance between graphs [[3]](https://ieeexplore.ieee.org/abstract/document/10644126). In this case, it penalises localisation errors for properly detected nodes, the number of missed and false nodes, and Edge mismatch errors.
 
 
 
