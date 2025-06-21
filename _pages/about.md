@@ -103,7 +103,7 @@ Iterated posterior linearisation is described in two popular books for state est
 Temporal parallelisation of Bayesian smoothers and control
 ---------------
 
-Bayesian smoothing has a linear complexity in the number of time steps. The framework proposed in [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038) uses parallel-scans such that Bayesian smoothing can be performed with logarithmic complexity in the number of time steps. This gives rise to parallel-in-time Kalman smoothers [T1], parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [T2] [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning framework to make the most of parallel computation capabilities of graphics processing units (GPUs). 
+Bayesian smoothing has a linear complexity in the number of time steps. The framework proposed in [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038) uses parallel-scans such that Bayesian smoothing can be performed with logarithmic complexity in the number of time steps. This gives rise to parallel-in-time Kalman smoothers [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038), parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397) [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning framework to make the most of parallel computation capabilities of graphics processing units (GPUs). 
 
 This contribution is also mentioned in the book [I7].
 
@@ -131,11 +131,11 @@ I have worked in many different applications including:
 Awards
 ======
 
-- Best paper award for the paper 
+- Best paper award for the paper [A. S. Rahmathullah, Á. F. García-Fernández and L. Svensson, "Generalized optimal sub-pattern assignment metric," 2017 20th International Conference on Information Fusion (Fusion), Xi'an, China, 2017, pp. 1-8, doi: 10.23919/ICIF.2017.8009645.](https://ieeexplore.ieee.org/document/8009645)
 
-- Third Best paper award for the paper "Spooky effect in optimal OSPA estimation and how GOSPA solves it" (22nd International Conference on Information Fusion, 2019).
+- Third Best paper award for the paper [Á. F. García-Femández and L. Svensson, "Spooky effect in optimal OSPA estimation and how GOSPA solves it," 2019 22th International Conference on Information Fusion (FUSION), Ottawa, ON, Canada, 2019, pp. 1-8, doi: 10.23919/FUSION43075.2019.9011259.](https://ieeexplore.ieee.org/document/9011259).
 
-- Second best paper award for the paper "An analysis on metric-driven multi-target sensor management: GOSPA versus OSPA" (24th International Conference on Information Fusion, 2021).
+- Second best paper award for the paper [Á. F. García-Fernández, M. Hernandez and S. Maskell, "An analysis on metric-driven multi-target sensor management: GOSPA versus OSPA," 2021 IEEE 24th International Conference on Information Fusion (FUSION), Sun City, South Africa, 2021, pp. 1-8, doi: 10.23919/FUSION49465.2021.9626837](https://ieeexplore.ieee.org/document/9626837).
 
 - Second best paper award for the paper [Y. Xia, A. F. Garcia-Fernandez and L. Svensson, "Hybrid PHD-PMB Trajectory Smoothing Using Backward Simulation," 2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), Pilsen, Czech Republic, 2024, pp. 1-8, doi: 10.1109/MFI62651.2024.10705782](https://ieeexplore.ieee.org/document/10705782).
 
