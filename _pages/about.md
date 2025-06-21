@@ -23,7 +23,7 @@ Generalised optimal sub-pattern assignment (GOSPA) metrics
 
 **The trajectory GOSPA (T-GOSPA) metric [[G2]](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms**. It penalises localisation errors for properly detected targets, the number of missed and false targets, and includes a track switching cost.
 
-The GOSPA metric has also been extended to graphs to measure the distance between graphs [[G3]](https://ieeexplore.ieee.org/abstract/document/10644126). In this case, it penalises localisation errors for properly detected nodes, the number of missed and false nodes, and edge mismatch errors.
+The GOSPA metric has also been extended to graphs to measure the distance between graphs [[G3]](https://ieeexplore.ieee.org/abstract/document/10644126). The graph GOSPA metric penalises localisation errors for properly detected nodes, the number of missed and false nodes, and edge mismatch errors.
 
 
 [G1] A. S. Rahmathullah, Á. F. García-Fernández and L. Svensson, "Generalized optimal sub-pattern assignment metric," 2017 20th International Conference on Information Fusion (Fusion), Xi'an, China, 2017, pp. 1-8, doi: 10.23919/ICIF.2017.8009645.
@@ -35,11 +35,11 @@ The GOSPA metric has also been extended to graphs to measure the distance betwee
 Poisson multi-Bernoulli mixture (PMBM) filters
 ---------------
 
-The **Poisson multi-Bernoulli mixture (PMBM) filters are closed-form, fully Bayesian multi-target filtering algorithms** and can be considered fully Bayesian state-of-the-art multiple hypothesis tracking (MHT) algorithms. The PMBM filters have an efficient hypothesis structure with probabilistic target existence, with significantly lowers the number of global hypotheses. 
+The **Poisson multi-Bernoulli mixture (PMBM) filters are closed-form, fully Bayesian multi-target filtering algorithms**. PMBM filters can be considered fully Bayesian, state-of-the-art multiple hypothesis tracking (MHT) algorithms. The PMBM filters have an efficient hypothesis structure with probabilistic target existence, which significantly lowers the number of global hypotheses. 
 
 There are several PMBM filters depending on the used models, for instance: point-target PMBM filter [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) [[P2]](https://ieeexplore.ieee.org/abstract/document/8289337), extended-target PMBM filter [[P3]](https://ieeexplore.ieee.org/abstract/document/8730493), PMBM filter for coexisting point and extended targets [[P4]](https://ieeexplore.ieee.org/abstract/document/9399297), general detection-based PMBM filter [[P5]](https://ieeexplore.ieee.org/abstract/document/10130623), continuous-discrete PMBM filters (continuous-time dynamics) [[P6]](https://ieeexplore.ieee.org/abstract/document/8964451) [[P7]](https://ieeexplore.ieee.org/abstract/document/10857380).
 
-The PMBM filters can be approximated via Poisson multi.Bernoulli (PMB) filters for faster computing, see for instance [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) and [[P8]](https://ieeexplore.ieee.org/abstract/document/9535241).
+The PMBM filters can be approximated via Poisson multi-Bernoulli (PMB) filters for faster computing, see for instance [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) and [[P8]](https://ieeexplore.ieee.org/abstract/document/9535241).
 
 A Youtube course that explains Bayesian multi-object tracking including PMBM filtering is [here](https://www.youtube.com/@multipleobjecttracking1226).
 
@@ -63,7 +63,7 @@ A Youtube course that explains Bayesian multi-object tracking including PMBM fil
 Multi-target tracking based on sets of trajectories
 ---------------
 
-**In Bayesian multi-target tracking, all probabilistic information about the trajectories the targets have followed is contained in the density of the set of trajectories given all available measurements**. The mathematical foundations to perform multi-target tracking based on sets of trajectories were provided in [[S1]](https://ieeexplore.ieee.org/abstract/document/8731733), and the measure-theory connections in [[S2]](https://arxiv.org/abs/1912.01748).
+**In Bayesian multi-target tracking, all probabilistic information about the trajectories the targets have followed is contained in the density of the set of trajectories given all available measurements**. The mathematical foundations to perform multi-target tracking based on sets of trajectories were provided in [[S1]](https://ieeexplore.ieee.org/abstract/document/8731733), and the measure theory connections in [[S2]](https://arxiv.org/abs/1912.01748).
 
 This framework has enabled the development of a novel class of multi-target tracking algorithms that estimate sets of trajectories from first principles: trajectory PMBM (TPMBM) filters [[S3]](https://ieeexplore.ieee.org/abstract/document/10799204), trajectory PMB (TPMB) filters [[S4]](https://ieeexplore.ieee.org/abstract/document/9169859), trajectory probability hypothesis density (TPHD) filters and trajectory cardinality probability hypothesis density (TCPHD) filters [[S5]](https://ieeexplore.ieee.org/abstract/document/8846723
 ). Among these, the TPMBM filters provide the closed-form solution to obtain the posterior on the set of trajectories. The rest are approximate filters with different computational-accuracy trade-offs.  
