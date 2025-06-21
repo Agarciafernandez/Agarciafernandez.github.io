@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor at the Information Processing and Telecommunications Center, ETSI de Telecomunicación, Universidad Politécnica de Madrid. Before then, I was a Senior Lecturer in the Department of Electrical Engineering and Electronics at the University of Liverpool, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, Chalmers University of Technology, Sweden, Curtin University, Australia, and Aalto University, Finland. 
+I am an Associate Professor at the Information Processing and Telecommunications Center, ETSI de Telecomunicación, Universidad Politécnica de Madrid. Before then, I was a Senior Lecturer at the University of Liverpool, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, Chalmers University of Technology, Sweden, Curtin University, Australia, and Aalto University, Finland. 
 
 My main research activities and interests are in the area of Bayesian inference, with emphasis on multiple target tracking and probabilistic machine learning.
 
@@ -37,7 +37,7 @@ Poisson multi-Bernoulli mixture (PMBM) filters
 
 The Poisson multi-Bernoulli mixture (PMBM) filters are closed-form Bayesian multi-target filtering algorithms and can be considered fully Bayesian state-of-the-art multiple hypothesis tracking (MHT) algorithms. The PMBM filters have an efficient hypothesis structure with probabilistic target existence, with significantly lowers the number of global hypotheses. 
 
-There are several PMBM filters depending on the used models, for instance: point-target PMBM filter [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) [[P2]](https://ieeexplore.ieee.org/abstract/document/8289337), extended-target PMBM filter [[P3]](https://ieeexplore.ieee.org/abstract/document/8730493), PMBM filter for coexisting point and extended targets [[P4]](https://ieeexplore.ieee.org/abstract/document/9399297), general detection-based PMBM filter [[P5]](https://ieeexplore.ieee.org/abstract/document/10130623), continuous-discrete PMBM filters (continuous-time dynamics) [[P6]] (https://ieeexplore.ieee.org/abstract/document/8964451).
+There are several PMBM filters depending on the used models, for instance: point-target PMBM filter [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) [[P2]](https://ieeexplore.ieee.org/abstract/document/8289337), extended-target PMBM filter [[P3]](https://ieeexplore.ieee.org/abstract/document/8730493), PMBM filter for coexisting point and extended targets [[P4]](https://ieeexplore.ieee.org/abstract/document/9399297), general detection-based PMBM filter [[P5]](https://ieeexplore.ieee.org/abstract/document/10130623), continuous-discrete PMBM filters (continuous-time dynamics) [[P6]](https://ieeexplore.ieee.org/abstract/document/8964451).
 
 
 
@@ -59,8 +59,8 @@ Multi-target tracking based on sets of trajectories
 
 In Bayesian multi-target tracking, all information of interest about the trajectories the targets have followed is contained in the density of the set of trajectories given all available measurements. The mathematical foundations to perform multi-target tracking based on sets of trajectories were provided in [[S1]](https://ieeexplore.ieee.org/abstract/document/8731733), and the measure-theory connections in [[S2]](https://arxiv.org/abs/1912.01748).
 
-This framework has enabled the development of a novel class of filters that estimate sets of trajectories from first principles: trajectory PMBM (TPMBM) filters [[S3]](https://ieeexplore.ieee.org/abstract/document/10799204), trajectory PMB (TPMB) filters [[S4]](https://ieeexplore.ieee.org/abstract/document/9169859), trajectory probability hypothesis density (TPHD) filters and trajectory cardinality probability hypothesis density (TCPHD) filters [[SS]](https://ieeexplore.ieee.org/abstract/document/8846723
-). Among these, the TPMBM filters provide the closed-form solution to obtain the posterior on the set of trajectories. The rest are approximate filters.  
+This framework has enabled the development of a novel class of filters that estimate sets of trajectories from first principles: trajectory PMBM (TPMBM) filters [[S3]](https://ieeexplore.ieee.org/abstract/document/10799204), trajectory PMB (TPMB) filters [[S4]](https://ieeexplore.ieee.org/abstract/document/9169859), trajectory probability hypothesis density (TPHD) filters and trajectory cardinality probability hypothesis density (TCPHD) filters [[S5]](https://ieeexplore.ieee.org/abstract/document/8846723
+). Among these, the TPMBM filters provide the closed-form solution to obtain the posterior on the set of trajectories. The rest are approximate filters with different computational-accuracy trade-offs.  
 
 
 
@@ -76,11 +76,50 @@ mixture filter,” Journal of Advances in Information Fusion, vol. 14, no. 2, pp
 [S5] Á. F. García-Fernández and L. Svensson, "Trajectory PHD and CPHD Filters," in IEEE Transactions on Signal Processing, vol. 67, no. 22, pp. 5702-5714, 15 Nov.15, 2019, doi: 10.1109/TSP.2019.2943234.
 
 
+
+Iterated posterior linearisation for Bayesian inference
+---------------
+
+In Bayesian inference, given a Gaussian prior, a Gaussian approximation to the posterior can be obtained by approximating the likelihood as a linear-Gaussian model. How the parameters of this linear-Gaussian model are chosen determines the quality of the posterior approximation. Iterated posterior linearisation seeks the optimal linearisation in a mean square error sense for the given measurement value by performing iterated statistical linear regression w.r.t. the posterior. This approach leads to the iterated posterior linearisation filter (IPLF)[[I1]](https://ieeexplore.ieee.org/document/7153566), which generalises (non-iterated) non-linear Kalman filters. The approach can also be applied to other applications such as smoothing [[I2]](https://ieeexplore.ieee.org/document/7515187) [[I3]](https://ieeexplore.ieee.org/abstract/document/8260875), cooperative localisation [[I4]](https://ieeexplore.ieee.org/abstract/document/7999230) and classification using Gaussian processes [[I5]](https://ieeexplore.ieee.org/document/8673324).
+
+Iterated posterior linearisation is described in two popular books for state estimation [I6] and machine learning [I7]. 
+
+
+[I1] Á. F. García-Fernández, L. Svensson, M. R. Morelande and S. Särkkä, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015, doi: 10.1109/TSP.2015.2454485.
+
+[I2] Á. F. García-Fernández, L. Svensson and S. Särkkä, "Iterated Posterior Linearization Smoother," in IEEE Transactions on Automatic Control, vol. 62, no. 4, pp. 2056-2063, April 2017, doi: 10.1109/TAC.2016.2592681.
+
+[I3] F. Tronarp, Á. F. García-Fernández and S. Särkkä, "Iterative Filtering and Smoothing in Nonlinear and Non-Gaussian Systems Using Conditional Moments," in IEEE Signal Processing Letters, vol. 25, no. 3, pp. 408-412, March 2018, doi: 10.1109/LSP.2018.2794767.
+
+[I4] Á. F. García-Fernández, L. Svensson and S. Särkkä, "Cooperative Localization Using Posterior Linearization Belief Propagation," in IEEE Transactions on Vehicular Technology, vol. 67, no. 1, pp. 832-836, Jan. 2018, doi: 10.1109/TVT.2017.2734683. 
+
+[I5] Á. F. García-Fernández, F. Tronarp and S. Särkkä, "Gaussian Process Classification Using Posterior Linearization," in IEEE Signal Processing Letters, vol. 26, no. 5, pp. 735-739, May 2019, doi: 10.1109/LSP.2019.2906929.
+
+[I6] S. Särkkä and L. Svensson, Bayesian Filtering and Smoothing, 2nd ed. Cambridge University Press, 2023.
+
+[I7] K. P. Murphy, Probabilistic Machine Learning: Advanced Topics. MIT Press, 2023.
+
+
+Temporal parallelisation of Bayesian smoothers and control
+---------------
+
+Bayesian smoothing has a linear complexity in the number of time steps. The framework proposed in [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038) uses parallel-scans such that Bayesian smoothing can be performed with logarithmic complexity in the number of time steps. This gives rise to parallel-in-time Kalman smoothers [T1], parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [T2] [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning framework to make the most of parallel computation capabilities of graphics processing units (GPUs). 
+
+This contribution is also mentioned in the book [I7].
+
+[T1] S. Särkkä and Á. F. García-Fernández, "Temporal Parallelization of Bayesian Smoothers," in IEEE Transactions on Automatic Control, vol. 66, no. 1, pp. 299-306, Jan. 2021, doi: 10.1109/TAC.2020.2976316.
+
+[T2] S. S. Hassan, S. Särkkä and Á. F. García-Fernández, "Temporal Parallelization of Inference in Hidden Markov Models," in IEEE Transactions on Signal Processing, vol. 69, pp. 4875-4887, 2021, doi: 10.1109/TSP.2021.3103338.
+
+[T3] S. Särkkä and Á. F. García-Fernández, "On The Temporal Parallelisation of The Viterbi Algorithm," 2023 31st European Signal Processing Conference (EUSIPCO), Helsinki, Finland, 2023, pp. 2018-2022, doi: 10.23919/EUSIPCO58844.2023.10289998.
+
+[T4] S. Särkkä and Á. F. García-Fernández, "Temporal Parallelization of Dynamic Programming and Linear Quadratic Control," in IEEE Transactions on Automatic Control, vol. 68, no. 2, pp. 851-866, Feb. 2023, doi: 10.1109/TAC.2022.3147017. 
+
 Applications
 ======
 
 I have worked in many different applications including: 
-- Multi-target tracking (radar, sonar, drones, space-objects, sensor management, distributed acoustic sensing, computer vision).
+- Multi-target tracking (radar, sonar, space-objects, drones, traffic monitoring, sensor management, distributed acoustic sensing, computer vision).
 - Simultaneous localisation and mapping (5-G, Wi-Fi and Bluetooth).
 - Gaussian process inference (molecular property prediction, classification).
 - Perception for advanced driver assistance systems.
@@ -92,11 +131,16 @@ I have worked in many different applications including:
 Awards
 ======
 
-- Second best paper award for the paper "Hybrid PHD-PMB Trajectory Smoothing Using Backward Simulation" (IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, 2024).
-
-- Second best paper award for the paper "An analysis on metric-driven multi-target sensor management: GOSPA versus OSPA" (24th International Conference on Information Fusion, 2021).
+- Best paper award for the paper 
 
 - Third Best paper award for the paper "Spooky effect in optimal OSPA estimation and how GOSPA solves it" (22nd International Conference on Information Fusion, 2019).
 
-- Best paper award for the paper "Generalized optimal sub-pattern assignment metric" (20th International Conference on Information Fusion, 2017).
+- Second best paper award for the paper "An analysis on metric-driven multi-target sensor management: GOSPA versus OSPA" (24th International Conference on Information Fusion, 2021).
+
+- Second best paper award for the paper [Y. Xia, A. F. Garcia-Fernandez and L. Svensson, "Hybrid PHD-PMB Trajectory Smoothing Using Backward Simulation," 2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), Pilsen, Czech Republic, 2024, pp. 1-8, doi: 10.1109/MFI62651.2024.10705782](https://ieeexplore.ieee.org/document/10705782).
+
+
+
+
+
 
