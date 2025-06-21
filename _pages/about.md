@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Associate Professor at the Information Processing and Telecommunications Center, ETSI de Telecomunicación, **Universidad Politécnica de Madrid**. Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
+I am an **Associate Professor** at the Information Processing and Telecommunications Center, ETSI de Telecomunicación, **Universidad Politécnica de Madrid**. Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
 
 My main research activities and interests are in the area of Bayesian inference, with emphasis on multiple target tracking and probabilistic machine learning.
 
@@ -104,7 +104,7 @@ Iterated posterior linearisation is described in two popular books for state est
 Temporal parallelisation of Bayesian smoothers and control
 ---------------
 
-Bayesian smoothing has a linear complexity in the number of time steps. **The framework proposed in [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038) determined the elements and associative operators to solve Bayesian smoothing with parallel scans with logarithmic time complexity**. This gives rise to parallel-in-time Kalman smoothers [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038), parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397) [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning framework to make the most of parallel computation capabilities of graphics processing units (GPUs). 
+Bayesian smoothing has a linear complexity in the number of time steps. **The framework proposed in [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038) determined the elements and associative operators to solve Bayesian smoothing using parallel scans with logarithmic time complexity**. This gives rise to parallel-in-time Kalman smoothers [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038), parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397) [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning framework to make the most of parallel computation capabilities of graphics processing units (GPUs). 
 
 This contribution is also discussed in the book [I7].
 
