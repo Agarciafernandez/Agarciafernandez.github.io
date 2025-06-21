@@ -21,7 +21,7 @@ Generalised optimal sub-pattern assignment (GOSPA) metrics
 
 **The GOSPA metric [[G1]](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets for evaluation of multi-target filtering algorithms**. The metric penalises localisation errors for properly detected targets, and the number of missed and false targets, see [video](https://www.youtube.com/watch?v=M79GTTytvCM).
 
-**The trajectory GOSPA (T-GOSPA) metric [[G2]](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms**. It penalises localisation errors for properly detected targets, the number of missed and false targets, and includes a track switching cost.
+**The trajectory GOSPA (T-GOSPA) metric [[G2]](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms**. It penalises localisation errors for properly detected targets, the number of missed and false targets, and the number of track switches.
 
 The GOSPA metric has also been extended to graphs to measure the distance between graphs [[G3]](https://ieeexplore.ieee.org/abstract/document/10644126). The graph GOSPA metric penalises localisation errors for properly detected nodes, the number of missed and false nodes, and edge mismatch errors.
 
@@ -68,6 +68,8 @@ Multi-target tracking based on sets of trajectories
 This framework has enabled the development of a novel class of multi-target tracking algorithms that estimate sets of trajectories from first principles: trajectory PMBM (TPMBM) filters [[S3]](https://ieeexplore.ieee.org/abstract/document/10799204), trajectory PMB (TPMB) filters [[S4]](https://ieeexplore.ieee.org/abstract/document/9169859), trajectory probability hypothesis density (TPHD) filters and trajectory cardinality probability hypothesis density (TCPHD) filters [[S5]](https://ieeexplore.ieee.org/abstract/document/8846723
 ). Among these, the TPMBM filters provide the closed-form solution to obtain the posterior on the set of trajectories. The rest are approximate filters with different computational-accuracy trade-offs.  
 
+Sets of trajectories also enable optimal processing of out-of-sequence measurements [[S6]](https://ieeexplore.ieee.org/document/9502575). If we consider target spawning, we can use sets of tree trajectories to keep complete genealogy information of each trajectory [[S7]](https://ieeexplore.ieee.org/document/9754270).
+
 
 [S1] Á. F. García-Fernández, L. Svensson and M. R. Morelande, "Multiple Target Tracking Based on Sets of Trajectories," in IEEE Transactions on Aerospace and Electronic Systems, vol. 56, no. 3, pp. 1685-1707, June 2020, doi: 10.1109/TAES.2019.2921210.
 
@@ -79,6 +81,10 @@ mixture filter,” Journal of Advances in Information Fusion, vol. 14, no. 2, pp
 [S4] Á. F. García-Fernández, L. Svensson, J. L. Williams, Y. Xia and K. Granström, "Trajectory Poisson Multi-Bernoulli Filters," in IEEE Transactions on Signal Processing, vol. 68, pp. 4933-4945, 2020, doi: 10.1109/TSP.2020.3017046. 
 
 [S5] Á. F. García-Fernández and L. Svensson, "Trajectory PHD and CPHD Filters," in IEEE Transactions on Signal Processing, vol. 67, no. 22, pp. 5702-5714, 15 Nov.15, 2019, doi: 10.1109/TSP.2019.2943234.
+
+[S6] Á. F. García-Fernández and W. Yi, "Continuous-Discrete Multiple Target Tracking With Out-of-Sequence Measurements," in IEEE Transactions on Signal Processing, vol. 69, pp. 4699-4709, 2021, doi: 10.1109/TSP.2021.3100999. 
+
+[S7] Á. F. García-Fernández and L. Svensson, "Tracking Multiple Spawning Targets Using Poisson Multi-Bernoulli Mixtures on Sets of Tree Trajectories," in IEEE Transactions on Signal Processing, vol. 70, pp. 1987-1999, 2022, doi: 10.1109/TSP.2022.3165947.
 
 
 
