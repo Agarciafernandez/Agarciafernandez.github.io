@@ -19,7 +19,7 @@ These are some of my main research contributions.
 Generalised optimal sub-pattern assignment (GOSPA) metrics
 ---------------
 
-**The GOSPA metric [[G1]](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets for evaluation of multi-target filtering algorithms**. The metric penalises localisation errors for properly detected targets, and the number of missed and false targets.
+**The GOSPA metric [[G1]](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets for evaluation of multi-target filtering algorithms**. The metric penalises localisation errors for properly detected targets, and the number of missed and false targets, see [video](https://www.youtube.com/watch?v=M79GTTytvCM).
 
 **The trajectory GOSPA (T-GOSPA) metric [[G2]](https://ieeexplore.ieee.org/abstract/document/9127194) is a mathematically principled metric to measure the distance between two sets of trajectories for evaluation of multi-target tracking algorithms**. It penalises localisation errors for properly detected targets, the number of missed and false targets, and includes a track switching cost.
 
@@ -40,6 +40,8 @@ The **Poisson multi-Bernoulli mixture (PMBM) filters are closed-form, fully Baye
 There are several PMBM filters depending on the used models, for instance: point-target PMBM filter [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) [[P2]](https://ieeexplore.ieee.org/abstract/document/8289337), extended-target PMBM filter [[P3]](https://ieeexplore.ieee.org/abstract/document/8730493), PMBM filter for coexisting point and extended targets [[P4]](https://ieeexplore.ieee.org/abstract/document/9399297), general detection-based PMBM filter [[P5]](https://ieeexplore.ieee.org/abstract/document/10130623), continuous-discrete PMBM filters (continuous-time dynamics) [[P6]](https://ieeexplore.ieee.org/abstract/document/8964451) [[P7]](https://ieeexplore.ieee.org/abstract/document/10857380).
 
 The PMBM filters can be approximated via Poisson multi.Bernoulli (PMB) filters for faster computing, see for instance [[P1]](https://ieeexplore.ieee.org/abstract/document/7272821) and [[P8]](https://ieeexplore.ieee.org/abstract/document/9535241).
+
+A Youtube course that explains Bayesian multi-object tracking including PMBM filtering is [here](https://www.youtube.com/@multipleobjecttracking1226).
 
 [P1] J. L. Williams, "Marginal multi-Bernoulli filters: RFS derivation of MHT, JIPDA, and association-based member," in IEEE Transactions on Aerospace and Electronic Systems, vol. 51, no. 3, pp. 1664-1687, July 2015, doi: 10.1109/TAES.2015.130550.
 
