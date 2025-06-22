@@ -146,7 +146,7 @@ Awards
 
 - Best paper award for the paper [A. S. Rahmathullah, Á. F. García-Fernández and L. Svensson, "Generalized optimal sub-pattern assignment metric," 2017 20th International Conference on Information Fusion (Fusion), Xi'an, China, 2017, pp. 1-8, doi: 10.23919/ICIF.2017.8009645.](https://ieeexplore.ieee.org/document/8009645)
 
-- Third Best paper award for the paper [Á. F. García-Femández and L. Svensson, "Spooky effect in optimal OSPA estimation and how GOSPA solves it," 2019 22th International Conference on Information Fusion (FUSION), Ottawa, ON, Canada, 2019, pp. 1-8, doi: 10.23919/FUSION43075.2019.9011259.](https://ieeexplore.ieee.org/document/9011259).
+- Third best paper award for the paper [Á. F. García-Femández and L. Svensson, "Spooky effect in optimal OSPA estimation and how GOSPA solves it," 2019 22th International Conference on Information Fusion (FUSION), Ottawa, ON, Canada, 2019, pp. 1-8, doi: 10.23919/FUSION43075.2019.9011259.](https://ieeexplore.ieee.org/document/9011259).
 
 - Second best paper award for the paper [Á. F. García-Fernández, M. Hernandez and S. Maskell, "An analysis on metric-driven multi-target sensor management: GOSPA versus OSPA," 2021 IEEE 24th International Conference on Information Fusion (FUSION), Sun City, South Africa, 2021, pp. 1-8, doi: 10.23919/FUSION49465.2021.9626837](https://ieeexplore.ieee.org/document/9626837).
 
