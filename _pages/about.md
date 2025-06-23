@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Associate Professor** at the Information Processing and Telecommunications Center, ETSI de Telecomunicación, **Universidad Politécnica de Madrid**. Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
+I am an **Associate Professor** at the [Information Processing and Telecommunications Center](https://iptc.upm.es/), ETSI de Telecomunicación, **Universidad Politécnica de Madrid**. Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
 
 My main research activities and interests are in the area of Bayesian inference, with emphasis on multiple target tracking and probabilistic machine learning.
 
@@ -93,7 +93,7 @@ Iterated posterior linearisation for Bayesian inference
 
 In Bayesian inference, given a Gaussian prior, a Gaussian approximation to the posterior can be obtained by approximating the likelihood as a linear-Gaussian model. How the parameters of this linear-Gaussian model are chosen determines the quality of the posterior approximation. **Iterated posterior linearisation seeks the optimal linearisation** in a mean square error sense for the given measurement value **by performing iterated statistical linear regression w.r.t. the posterior**. This approach leads to the iterated posterior linearisation filter (IPLF) [[I1]](https://ieeexplore.ieee.org/document/7153566), which generalises (non-iterated) non-linear Kalman filters. Iterated posterior linearisation inference can also be applied to other applications such as smoothing [[I2]](https://ieeexplore.ieee.org/document/7515187) [[I3]](https://ieeexplore.ieee.org/abstract/document/8260875), cooperative localisation [[I4]](https://ieeexplore.ieee.org/abstract/document/7999230) and classification using Gaussian processes [[I5]](https://ieeexplore.ieee.org/document/8673324).
 
-Iterated posterior linearisation is described in two popular books for state estimation [I6] and machine learning [I7]. 
+Iterated posterior linearisation is described in two popular books for state estimation [[I6]](https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf) and machine learning [[I7]](https://probml.github.io/pml-book/book2.html). 
 
 
 [I1] Á. F. García-Fernández, L. Svensson, M. R. Morelande and S. Särkkä, "Posterior Linearization Filter: Principles and Implementation Using Sigma Points," in IEEE Transactions on Signal Processing, vol. 63, no. 20, pp. 5561-5573, Oct.15, 2015, doi: 10.1109/TSP.2015.2454485.
@@ -118,7 +118,7 @@ Bayesian smoothing has a linear complexity in the number of time steps. **The fr
 
 This framekwork gives rise to parallel-in-time Kalman smoothers [[T1]](https://ieeexplore.ieee.org/abstract/document/9013038), and parallel-in-time smoothers for hidden Márkov models [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397). The approach can be extended to obtain parallel-in-time Viterbi algorithms [[T2]](https://ieeexplore.ieee.org/abstract/document/9512397) [[T3]](https://ieeexplore.ieee.org/abstract/document/10289998) and to solve optimal control problems [[T4]](https://ieeexplore.ieee.org/abstract/document/9697418). The code of these algorithms can be written in machine learning frameworks to make the most of the parallel computation capabilities of graphics processing units (GPUs). 
 
-This contribution is also discussed in the book [I7].
+This contribution is also discussed in the book [[I7]](https://probml.github.io/pml-book/book2.html).
 
 [T1] S. Särkkä and Á. F. García-Fernández, "Temporal Parallelization of Bayesian Smoothers," in IEEE Transactions on Automatic Control, vol. 66, no. 1, pp. 299-306, Jan. 2021, doi: 10.1109/TAC.2020.2976316.
 
