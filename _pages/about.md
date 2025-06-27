@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an **Associate Professor** at the [Information Processing and Telecommunications Center](https://iptc.upm.es/), ETSI de Telecomunicación, **Universidad Politécnica de Madrid**. Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
+I am an **Associate Professor** at the [Information Processing and Telecommunications Center](https://iptc.upm.es/), ETSI de Telecomunicación, [**Universidad Politécnica de Madrid**](https://www.upm.es/internacional). Before then, I was a Senior Lecturer at the **University of Liverpool**, UK. Previously, I held postdoctoral positions at Universidad Politécnica de Madrid, **Chalmers University of Technology**, Sweden, **Curtin University**, Australia, and **Aalto University**, Finland. As a PhD student, I also did two research stays at the **University of Melbourne**, Australia. 
 
 My main research activities and interests are in the area of Bayesian inference, with emphasis on multiple target tracking and probabilistic machine learning.
 
