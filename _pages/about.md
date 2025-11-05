@@ -152,8 +152,6 @@ Awards
 
 - Second best paper award for the paper [Y. Xia, A. F. Garcia-Fernandez and L. Svensson, "Hybrid PHD-PMB Trajectory Smoothing Using Backward Simulation," 2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), Pilsen, Czech Republic, 2024, pp. 1-8, doi: 10.1109/MFI62651.2024.10705782](https://ieeexplore.ieee.org/document/10705782).
 
-- Second best paper award for the paper [Y. Xia, A. F. Garcia-Fernandez and L. Svensson, "Hybrid PHD-PMB Trajectory Smoothing Using Backward Simulation," 2024 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems (MFI), Pilsen, Czech Republic, 2024, pp. 1-8, doi: 10.1109/MFI62651.2024.10705782](https://ieeexplore.ieee.org/document/10705782).
-
 - Best paper runner-up award for the paper [B. Hanlon and Á. F. García-Fernández, "Coordinate Ascent Neural Kalman-MLE for State Estimation," 2025 IEEE 35th International Workshop on Machine Learning for Signal Processing (MLSP), Istanbul, Turkiye, 2025, pp. 1-6, doi: 10.1109/MLSP62443.2025.11204271](https://ieeexplore.ieee.org/document/11204271).
 
 
