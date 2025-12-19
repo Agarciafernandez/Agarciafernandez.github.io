@@ -1,7 +1,7 @@
 ---
 title: "Generalised optimal sub-pattern assignment (GOSPA) metrics"
 excerpt: "Short description of portfolio item number 1<br/>
-collection: portfolio
+collection: maincontributions
 ---
 
 **The GOSPA metric [[G1]](https://ieeexplore.ieee.org/document/8009645) is a mathematically principled metric to measure the distance between two sets of targets for evaluation of multi-target filtering algorithms**. The metric penalises localisation errors for properly detected targets, and the number of missed and false targets, see [video](https://www.youtube.com/watch?v=M79GTTytvCM).
