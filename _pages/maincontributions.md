@@ -7,6 +7,8 @@ redirect_from:
   - /markdown.html
 ---
 
+These are some of my main research contributions.
+
 {% include toc %}
 
 Generalised optimal sub-pattern assignment (GOSPA) metrics
