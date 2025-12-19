@@ -131,14 +131,18 @@ This contribution is also discussed in the book [[I7]](https://probml.github.io/
 Applications
 ======
 
-I have worked in many different applications including: 
-- Multi-target tracking (radar, sonar, space-objects, drones, traffic monitoring, sensor management, distributed acoustic sensing, computer vision).
+I work in many different areas including: 
+- Multi-target tracking (radar, sonar, space objects, drones, traffic monitoring, distributed acoustic sensing, computer vision).
+- Bayesian filtering and smoothing.
+- Sensor management and control.
+- Inference over graphs via belief propagation.
+- Parallel computation applied to Bayesian inference problems.
 - Simultaneous localisation and mapping (5-G, Wi-Fi and Bluetooth).
 - Gaussian process inference (molecular property prediction, classification).
 - Perception for advanced driver assistance systems.
 - Health (fMRI and EEG signal processing).
 - Battery state-of-charge estimation.
-- Financial portfolio management.
+- Financial portfolio management using reinforcement learning.
 
 
 Awards
