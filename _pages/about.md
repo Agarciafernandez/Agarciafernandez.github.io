@@ -11,6 +11,7 @@ I am an **Associate Professor** at the [Information Processing and Telecommunica
 
 My main research activities and interests are in the area of Bayesian inference, with emphasis on multiple target tracking and probabilistic machine learning.
 
+I am a member of [ELLIS](https://ellis.eu/person/angel-garcia-fernandez) and Associate Editor of the [IEEE Transactions on Aerospace and Electronic Systems](https://ieee-aess.org/contact/angel-f-garcia-fernandez) and IEEE Access.
 
 Research interests
 ======
