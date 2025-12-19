@@ -7,6 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 
+{% include toc %}
 
 Generalised optimal sub-pattern assignment (GOSPA) metrics
 ---------------
@@ -121,18 +122,4 @@ This contribution is also discussed in the book [[I7]](https://probml.github.io/
 
 [T4] S. Särkkä and Á. F. García-Fernández, "Temporal Parallelization of Dynamic Programming and Linear Quadratic Control," in IEEE Transactions on Automatic Control, vol. 68, no. 2, pp. 851-866, Feb. 2023, doi: 10.1109/TAC.2022.3147017. 
 
-Research interests
-======
 
-I work in many different areas including: 
-- Multi-target tracking (radar, sonar, space objects, drones, traffic monitoring, distributed acoustic sensing, computer vision).
-- Bayesian filtering and smoothing.
-- Sensor management and control.
-- Inference over graphs via belief propagation.
-- Parallel computation applied to Bayesian inference problems.
-- Simultaneous localisation and mapping (5-G, Wi-Fi and Bluetooth).
-- Gaussian process inference (molecular property prediction, classification).
-- Perception for advanced driver assistance systems.
-- Health (fMRI and EEG signal processing).
-- Battery state-of-charge estimation.
-- Financial portfolio management using reinforcement learning.
